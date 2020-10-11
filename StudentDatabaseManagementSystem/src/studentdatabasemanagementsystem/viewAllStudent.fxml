@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="1155.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentdatabasemanagementsystem.ViewAllStudentController">
+   <children>
+      <TableView fx:id="studentTable" prefHeight="500.0" prefWidth="1155.0" style="-fx-background-color: #6fe7f2;">
+         <columns>
+            <TableColumn fx:id="nameCol" prefWidth="307.0" text="Name" />
+            <TableColumn fx:id="idCol" prefWidth="173.0" text="ID" />
+            <TableColumn fx:id="emailCol" prefWidth="257.0" text="Email" />
+            <TableColumn fx:id="DepertmentCol" prefWidth="105.0" text="Depertment" />
+            <TableColumn fx:id="addressCol" prefWidth="312.0" text="Address" />
+         </columns>
+      </TableView>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#deleteStudentBtnAction" text="Delete Student">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets left="20.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

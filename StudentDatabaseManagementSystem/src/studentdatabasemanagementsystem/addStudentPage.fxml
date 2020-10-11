@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="1155.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentdatabasemanagementsystem.AddStudentPageController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="39.0" style="-fx-background-color: #55d5f2;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="studentName" promptText="Name" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="60.0" style="-fx-background-color: #77dbf2;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="studentId" promptText="ID" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="43.0" style="-fx-background-color: #92e4f7;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Email">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="studentEmail" promptText="Email" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #bbe8f2;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Depertment">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="studentDepertment" promptText="Depertment" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="30.0" style="-fx-background-color: #e1f7fc;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Address">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="studentAddress" promptText="Address" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="30.0" style="-fx-background-color: html color picker;">
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+         <children>
+            <Button mnemonicParsing="false" onAction="#adStudentButtonAction" prefHeight="66.0" prefWidth="131.0" style="-fx-background-color: #c7d5f0;" text="Add">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
