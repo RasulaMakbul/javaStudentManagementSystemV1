@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentdatabasemanagementsystem.FXMLDocumentController">
+   <top>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #7244ab;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#d3cccc" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Database Management System">
+               <font>
+                  <Font name="Californian FB" size="64.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </top>
+   <left>
+      <VBox prefHeight="568.0" prefWidth="211.0" spacing="13.0" style="-fx-background-color: #c7a5f2;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#addAllStudentBtnAction" prefHeight="75.0" prefWidth="187.0" style="-fx-background-color: #3e2a57;" text="Add New Student" textFill="#e4d4d4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#ViewAllStudentBtnAction" prefHeight="75.0" prefWidth="187.0" style="-fx-background-color: #3e2a57;" text="View All Student" textFill="#e4d4d4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="12.0" top="13.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="568.0" prefWidth="1155.0" style="-fx-background-color: #92a7d1;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
