@@ -3,6 +3,8 @@ package studentdatabasemanagementsystem;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -11,6 +13,8 @@ import javafx.scene.control.TableView;
 
 
 public class ViewAllStudentController implements Initializable {
+    @FXML
+    private TableView<?> studentTable;
     @FXML
     private TableColumn<?, ?> nameCol;
     @FXML
@@ -21,9 +25,8 @@ public class ViewAllStudentController implements Initializable {
     private TableColumn<?, ?> DepertmentCol;
     @FXML
     private TableColumn<?, ?> addressCol;
-    @FXML
-    private TableView<?> studentTable;
-
+    
+    
    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -32,6 +35,7 @@ public class ViewAllStudentController implements Initializable {
 
     @FXML
     private void deleteStudentBtnAction(ActionEvent event) {
+        
     }
     
 }

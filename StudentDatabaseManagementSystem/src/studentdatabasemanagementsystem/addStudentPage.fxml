@@ -100,7 +100,7 @@
             <Insets left="20.0" />
          </padding>
          <children>
-            <Button mnemonicParsing="false" onAction="#adStudentButtonAction" prefHeight="66.0" prefWidth="131.0" style="-fx-background-color: #c7d5f0;" text="Add">
+            <Button mnemonicParsing="false" onAction="#adStudentButtonAction" prefHeight="66.0" prefWidth="131.0" style="-fx-background-color: #c7d5f0;" text="Save">
                <font>
                   <Font size="16.0" />
                </font>

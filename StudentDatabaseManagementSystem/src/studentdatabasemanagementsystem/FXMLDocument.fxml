@@ -47,6 +47,6 @@
       </VBox>
    </left>
    <center>
-      <VBox prefHeight="568.0" prefWidth="1155.0" style="-fx-background-color: #92a7d1;" BorderPane.alignment="CENTER" />
+      <VBox fx:id="homePageContent" prefHeight="568.0" prefWidth="1155.0" style="-fx-background-color: #92a7d1;" BorderPane.alignment="CENTER" />
    </center>
 </BorderPane>
