@@ -63,5 +63,14 @@ public class AddStudentPageController implements Initializable {
         depertmentField.clear();
         addressField.clear();
     }
+
+    @FXML
+    private void resetStudentButtonAction(ActionEvent event) {
+        nameField.clear();
+        idField.clear();
+        emailField.clear();
+        depertmentField.clear();
+        addressField.clear();
+    }
     
 }

@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -77,7 +79,7 @@ public class ViewAllStudentController implements Initializable {
     }    
 
     @FXML
-    private void deleteStudentBtnAction(ActionEvent event) throws IOException {
+    private void deleteStudentBtnAction(ActionEvent event) throws IOException, SQLException {
 //        //txt DataBase
 //        List<newStudentInfo>seleStudentInfos=studentTable.getSelectionModel().getSelectedItems();
 //        AddStudentPageController.stdList.removeAll(seleStudentInfos);
@@ -93,6 +95,16 @@ public class ViewAllStudentController implements Initializable {
 //        fileWriter.close();
         
         //MySQL Database
+        ObservableList<newStudentInfo> selectedStudents=FXCollections.observableArrayList();
+        selectedStudents=studentTable.getSelectionModel().getSelectedItems();
+        
+        DataBaseAction dbAction=new DataBaseAction();
+        dbAction.deleStudents(selectedStudents);
+        
+        AddStudentPageController.stdList.removeAll(selectedStudents);
+        
+        
+        
         
     }
     

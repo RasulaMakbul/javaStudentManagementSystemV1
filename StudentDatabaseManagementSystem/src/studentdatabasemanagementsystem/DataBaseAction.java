@@ -52,4 +52,14 @@ public class DataBaseAction {
         //statement.executeUpdate(query);
         
     }
+    void deleStudents(ObservableList<newStudentInfo> selectedStudents) throws SQLException{
+        Connection conn=getConnection();
+        Statement statement=conn.createStatement();
+        
+        for(newStudentInfo student:selectedStudents){
+            String query="delete from student where name = "+student.getName();
+            statement.executeUpdate(query);
+        }
+        
+    }
 }

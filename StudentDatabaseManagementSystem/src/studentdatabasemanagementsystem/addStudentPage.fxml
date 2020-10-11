@@ -105,6 +105,11 @@
                   <Font size="16.0" />
                </font>
             </Button>
+            <Button mnemonicParsing="false" onAction="#resetStudentButtonAction" prefHeight="66.0" prefWidth="131.0" style="-fx-background-color: #c7d5f0;" text="Reset">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
          </children>
       </HBox>
    </children>
