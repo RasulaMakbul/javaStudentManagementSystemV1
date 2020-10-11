@@ -26,13 +26,14 @@ public class AddStudentPageController implements Initializable {
     @FXML
     private TextField studentAddress;
     
-    static ObservableList<newStudentInfo> stdList=FXCollections.observableArrayList();
+    
 
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         
     }    
+    static ObservableList<newStudentInfo> stdList=FXCollections.observableArrayList();
 
     @FXML
     private void adStudentButtonAction(ActionEvent event) throws IOException {
