@@ -17,7 +17,7 @@
                   <Font size="16.0" />
                </font>
             </Text>
-            <TextField fx:id="studentName" promptText="Name" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+            <TextField fx:id="nameField" promptText="Name" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
                <font>
                   <Font size="16.0" />
                </font>
@@ -34,7 +34,7 @@
                   <Font size="16.0" />
                </font>
             </Text>
-            <TextField fx:id="studentId" promptText="ID" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+            <TextField fx:id="idField" promptText="ID" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
                <font>
                   <Font size="16.0" />
                </font>
@@ -51,7 +51,7 @@
                   <Font size="16.0" />
                </font>
             </Text>
-            <TextField fx:id="studentEmail" promptText="Email" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+            <TextField fx:id="emailField" promptText="Email" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
                <font>
                   <Font size="16.0" />
                </font>
@@ -68,7 +68,7 @@
                   <Font size="16.0" />
                </font>
             </Text>
-            <TextField fx:id="studentDepertment" promptText="Depertment" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+            <TextField fx:id="depertmentField" promptText="Depertment" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
                <font>
                   <Font size="16.0" />
                </font>
@@ -85,7 +85,7 @@
                   <Font size="16.0" />
                </font>
             </Text>
-            <TextField fx:id="studentAddress" promptText="Address" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
+            <TextField fx:id="addressField" promptText="Address" style="-fx-background-color: #d9faef; -fx-border-color: #0a0d0c;">
                <font>
                   <Font size="16.0" />
                </font>

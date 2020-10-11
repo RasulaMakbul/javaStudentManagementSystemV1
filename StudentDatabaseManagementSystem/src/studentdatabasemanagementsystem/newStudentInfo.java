@@ -60,4 +60,9 @@ public class newStudentInfo {
         this.depertment = depertment;
         this.address = address;
     }
+
+    public newStudentInfo() {
+    }
+
+    
 }

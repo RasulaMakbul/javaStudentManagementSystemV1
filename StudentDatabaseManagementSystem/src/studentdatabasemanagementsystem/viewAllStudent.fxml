@@ -12,11 +12,11 @@
    <children>
       <TableView fx:id="studentTable" prefHeight="500.0" prefWidth="1155.0" style="-fx-background-color: #6fe7f2;">
          <columns>
-            <TableColumn fx:id="nameCol" prefWidth="307.0" text="Name" />
-            <TableColumn fx:id="idCol" prefWidth="173.0" text="ID" />
-            <TableColumn fx:id="emailCol" prefWidth="257.0" text="Email" />
-            <TableColumn fx:id="DepertmentCol" prefWidth="105.0" text="Depertment" />
-            <TableColumn fx:id="addressCol" prefWidth="312.0" text="Address" />
+            <TableColumn fx:id="nameCol" prefWidth="307.0" text="name" />
+            <TableColumn fx:id="idCol" prefWidth="173.0" text="id" />
+            <TableColumn fx:id="emailCol" prefWidth="257.0" text="email" />
+            <TableColumn fx:id="depertmentCol" prefWidth="105.0" text="depertment" />
+            <TableColumn fx:id="addressCol" prefWidth="312.0" text="address" />
          </columns>
       </TableView>
       <HBox alignment="CENTER_LEFT" prefHeight="100.0" spacing="20.0">
